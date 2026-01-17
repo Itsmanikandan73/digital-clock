@@ -3,6 +3,7 @@
 A simple, terminal-based digital clock written in C.
 
 ## Features
+- Military time format
 - Displays current local time
 - Updates every second
 
