@@ -9,7 +9,7 @@ A simple, terminal-based digital clock written in C.
 
 ## How to Run
 
-if gcc didn't in you machine do the sudo step first sudo apt-get update or sudo apt-get update && upgrade -y
+if you haven't installed gcc do this steps first --- sudo apt-get update or sudo apt-get update && upgrade -y
 
 - sudo apt-get install gcc
 - gcc clock.c -o clock
