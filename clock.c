@@ -19,8 +19,9 @@ int main(){
 	pTime = localtime(&current_time);
 	
 
-	printf("%02d:%02d:%02d\n", pTime->tm_hour, pTime->tm_min, pTime->tm_sec);  // we can use pTime pointer like (*pTime).tm_hour
+	printf("\rCurrent Time: %02d:%02d:%02d", pTime->tm_hour, pTime->tm_min, pTime->tm_sec);  // we can use pTime pointer like (*pTime).tm_hour
 			
+	fflush(stdout);
 
 	sleep(1);
 
