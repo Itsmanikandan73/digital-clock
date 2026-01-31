@@ -10,10 +10,10 @@ A simple, terminal-based digital clock written in C.
 ## Installation & Setup
 
 Before you start, make sure you have the GCC compiler installed. On Linux (or WSL), run:
-
+```bash
 - sudo apt update && sudo apt upgrade -y
 - sudo apt intsatll gcc -y
-
+```
 ## Execute the code
 To compile and excute any program follow this steps:
 
