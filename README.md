@@ -16,7 +16,10 @@ Before you start, make sure you have the GCC compiler installed. On Linux (or WS
 ```
 ## Execute the code
 To compile and excute any program follow this steps:
-___
+
+```
 - gcc clock.c -o clock
 - ./clock
-___
+```
+
+
